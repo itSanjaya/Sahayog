@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sahayog: For Workers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/sahayog_logo.png" alt="logo" width="100px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="works.html">Works Available</a></li>
+                        <li><a href="bid.html">Submit Bid</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="register.html">Account</a></li>
+                    </ul>
+                </nav>
+                <!-- <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a> -->
+                <!-- <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> -->
+            </div>
+                    <!--<a href="#down">🠕</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+    	<div class="row-2">
+    		<h2>Works Available Now</h2>
+    	</div>
+        <div class="row-3">
+            <select>
+                <option>Default Sort</option>
+                <option>Sort By Price</option>
+                <option>Sort By Bid</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="images/construction.jfif"></a>
+                <h4>Gangabu Construction Site</h4>
+               	<p>5 Bids | 24 hrs 23 mins 44 seconds left</p>
+                <p>Offer: NPR 2000 per day</p>
+                <p>Posted by: Pappu Construction</p>
+            </div>
+            <div class="col-4">
+                <a href="bid.html"><img src="images/site.jpg"></a>
+                <h4>Kulekhani Ghar Nirmaan</h4>
+               	<p>2 Bids | 4 hrs left</p>
+                <p>Offer: NPR 1500 per day</p>
+                <p>Posted by: Suresh Kulkarni</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/cricket.jfif"></a>
+                <h4>Gautam Buddha International Cricket Stadium</h4>
+               	<p>6 Bids | 6 hrs 59 minutes left</p>
+                <p>Offer: NPR 3200 per day</p>
+                <p>Posted by: Dhurmus Suntali Foundation</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/khola.jfif"></a>
+                <h4>Tukucha Khola Utkhanan</h4>
+                <p>7 Bids | 5 hrs 26 minutes left</p>
+                <p>Offer: NPR 5000 per day</p>
+                <p>Posted by: Balen Dai</p>
+            </div>
+         </div>
+    </div>
+
+     <!-- Footer -->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/sahayog_logo.png">
+                    <p>Our commitment is to discover and market traditional ingenuity.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023  Sahayog</p>
+        </div>
+    </div>
+
+    <!-- javascript -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</html>
